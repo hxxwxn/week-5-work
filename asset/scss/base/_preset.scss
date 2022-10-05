@@ -1,0 +1,73 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+.common-inner {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+
+// ***************** 바로가기 ***************** //
+#skipNav {
+    position: relative;
+    z-index: 3000
+}
+
+#skipNav a {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 138px;
+    border: 1px solid #4ec53d;
+    background: #333;
+    text-align: center
+}
+
+#skipNav a:active,
+#skipNav a:focus {
+    top: 0;
+    text-decoration: none;
+    z-index: 1000
+}
+
+#skipNav span {
+    display: inline-block;
+    padding: 2px 6px 0 0;
+    font-size: 13px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: -1px;
+    white-space: nowrap
+}
+
+// ***************** 바로가기 끝 ***************** //
+
+
+// ***************** sp ***************** //
+
+.header .top .logo a,
+.header .bottom .btn-submit,
+.footer .bottom .ftr-logo {
+    background-image: url(../images/sp-img.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+
+// sc-sns //
+.footer .top .sc-sns li a {
+    background: url(../images/icon_set_sns.png) no-repeat 0 0;
+}
+
+
+// hover color
+
+.header > * a:hover {
+    color: #2292e9;
+}
