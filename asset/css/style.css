@@ -38,6 +38,7 @@ ul {
 
 a {
   text-decoration: none;
+  line-height: 1.35em;
 }
 
 table {
@@ -137,6 +138,15 @@ select {
 
 .container .cont1 .sc-mainSlide .sc-titleTab a::before {
   background: url(../images/icon_sp.png) no-repeat;
+}
+
+#main .sc-mainService .service-item a::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+  background-image: url(../images/sp-service.png);
+  background-repeat: no-repeat;
 }
 
 .header > * a:hover {
@@ -742,4 +752,218 @@ select {
   position: absolute;
   left: 237px;
   bottom: 12px;
+}
+.container .sc-mainService {
+  padding-top: 50px;
+  position: relative;
+}
+.container .sc-mainService .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 20px;
+}
+.container .sc-mainService .top h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.container .sc-mainService .top a {
+  display: block;
+  width: 112px;
+  height: 29px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  padding-left: 13px;
+  line-height: 28px;
+  background: url(../images/icon_link6.png) no-repeat right 13px top 50%;
+}
+.container .sc-mainService .service-list {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.container .sc-mainService .service-list .service-item {
+  height: 90px;
+}
+.container .sc-mainService .service-list .service-item a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+.container .sc-mainService .service-list .service-item a::before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+  background-image: url(../images/sp-service.png);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: -360px 0;
+}
+.container .sc-mainService .service-list .service-item.item2 a::before {
+  background-position: 0 0;
+}
+.container .sc-mainService .service-list .service-item.item3 a::before {
+  background-position: -120px 0;
+}
+.container .sc-mainService .service-list .service-item.item4 a::before {
+  background-position: -300px 0;
+}
+.container .sc-mainService .service-list .service-item.item5 a::before {
+  background-position: -180px 0;
+}
+.container .sc-mainService .service-list .service-item.item6 a::before {
+  background-position: -960px 0;
+}
+.container .sc-mainService .service-list .service-item.item7 a::before {
+  background-position: -780px 0;
+}
+.container .sc-mainService .service-list .service-item.item8 a::before {
+  background-position: -1140px 0;
+}
+.container .sc-mainService .service-list .service-item.item9 a::before {
+  background-position: -1020px 0;
+}
+.container .sc-mainService .service-list .service-item.item10 a::before {
+  background-position: -60px 0;
+}
+.container .sc-mainService .service-list .service-item.item11 a::before {
+  background-position: -600px 0;
+}
+.container .sc-cont3 {
+  margin-top: 35px;
+  background: #eff4f8;
+}
+.container .sc-cont3 .common-inner .banner-list {
+  display: flex;
+  justify-content: space-between;
+}
+.container .sc-cont3 .common-inner .banner-list li {
+  width: 288px;
+  padding: 20px 0;
+}
+.container .sc-cont3 .common-inner .banner-list li a {
+  position: relative;
+}
+.container .sc-cont3 .common-inner .banner-list > li + li a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 1px;
+  height: 60px;
+  background: #dbdbdb;
+}
+.container .cont4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  padding: 50px 0 50px;
+  border-bottom: 2px solid #222222;
+}
+.container .cont4 > * {
+  width: 360px;
+}
+.container .cont4 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.container .cont4 h2 {
+  line-height: 1.35em;
+  font-weight: 700;
+  font-size: 24px;
+}
+.container .cont4 strong {
+  margin: 0 9px 0 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+.container .cont4 strong.house {
+  color: #c35c3c;
+}
+.container .cont4 strong.environment {
+  color: #599100;
+}
+.container .cont4 strong.economy {
+  color: #069363;
+}
+.container .cont4 strong.culture {
+  color: #9b64d3;
+}
+.container .cont4 .often-service h2 {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.container .cont4 .cont4-common {
+  position: relative;
+}
+.container .cont4 .cont4-common ul li {
+  width: 100%;
+  padding: 6px 0 6px 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+}
+.container .cont4 .cont4-common ul li a {
+  line-height: 1.35em;
+  font-size: 15px;
+  color: #222;
+}
+.container .cont4 .cont4-common .more {
+  width: 22px;
+  height: 20px;
+  border: 1px solid #ddd;
+  background: url(../images/sp-img.png) no-repeat -1px -1px;
+}
+.container .cont4 .cont4-common .more a {
+  display: block;
+}
+.container .cont4 .often-service .os-list {
+  width: 360px;
+  margin: 0;
+  padding: 17px 5px 7px 20px;
+  background: #eff4f8;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .cont4 .often-service .os-list li {
+  width: 50%;
+  position: relative;
+  padding: 0 0 10px 10px;
+}
+.container .cont4 .often-service .os-list li::before {
+  content: "";
+  position: absolute;
+  background: #666666;
+  width: 2px;
+  height: 2px;
+  left: 0;
+  top: 50%;
+  margin-top: -6px;
+}
+.container .cont4 .often-service .os-list li a {
+  width: 94%;
+  font-size: 15px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
 }

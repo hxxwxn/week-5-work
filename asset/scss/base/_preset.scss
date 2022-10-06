@@ -66,12 +66,24 @@
 }
 
 // sc-slide {
-    .container .cont1 .sc-mainSlide .sc-titleTab a::before {
-        background: url(../images/icon_sp.png) no-repeat;
-    }
+.container .cont1 .sc-mainSlide .sc-titleTab a::before {
+    background: url(../images/icon_sp.png) no-repeat;
+}
+
+
+
+// sc-mainService {
+#main .sc-mainService .service-item a::before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    background-image: url(../images/sp-service.png);
+    background-repeat: no-repeat;
+}
 
 // hover color
 
-.header > * a:hover {
+.header>* a:hover {
     color: #2292e9;
 }
