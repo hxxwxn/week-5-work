@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>서울특별시 - 동행·매력 특별시 서울</title>
     <link rel="shortcut icon" href="./asset/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./asset/css/layout.css">
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="./asset/css/style.css">
@@ -64,7 +65,7 @@
                         <div class="wrap">
                             <!-- 검색할 부분 -->
                             <input type="text" class="input-text" placeholder="검색어를 입력해 주세요">
-                            
+
                             <!-- 검색버튼 -->
                             <button class="btn-submit">
                                 <span class="blind">검색</span>
@@ -98,7 +99,7 @@
                 <div class="txt-area">
                     <a href="https://www.weather.go.kr" class="weather">
                         <strong class="deg">20.2℃</strong>
-                        <span>                            &nbsp;
+                        <span> &nbsp;
                             &nbsp;구름많음</span>
                     </a>
                     <a href="//cleanair.seoul.go.kr" class="dust">
@@ -114,9 +115,165 @@
     </header><!-- // 상단 끝 -->
 
     <!-- 메인 -->
-    <main id="main" class="contatiner">
-        <!-- cont1 - -->
-        <!-- cont2 - banner -->
+    <main id="main" class="container">
+
+        <!-- common-inner -->
+        <div class="common-inner">
+            <!-- cont1 - -->
+            <div class="cont1">
+                <!-- 슬라이드 -->
+                <section class="sc-mainSlide">
+                    <h2 class="blind">메인 슬라이드</h2>
+                    <!-- 1st slide -->
+                    <div class="slide newsSlide active">
+                        <h3 class="sc-titleTab on"><a href="#slide1">주요뉴스</a></h3>
+                        <div class="swiper slide1" id="slide1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/news_slide_01.jpg"
+                                            alt="2022년 서울세계불꽃축제 교통대책 안내 10.8(토) 19시~21시 30분 여의도 한강공원 일대">
+                                        <p class="title">2022년 서울세계불꽃축제 교통대책 안내 10.8(토) 19시~21시 30분 여의도 한강공원 일대</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/news_slide_02.jpg" alt="가을이로구나! 알짜배기 '서울 축제' 다 모아 봄">
+                                        <p class="title">가을이로구나! 알짜배기 '서울 축제' 다 모아 봄</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/news_slide_03.jpg"
+                                            alt="9월 26일부터 실외 마스크 착용 자율 전환, 50인 이상 실외 마스크 의무·과태료 부과 삭제">
+                                        <p class="title">9월 26일부터 실외 마스크 착용 자율 전환, 50인 이상 실외 마스크 의무·과태료 부과 삭제</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/news_slide_04.jpg"
+                                            alt="놀리던 땅이 놀라운 땅으로! 모두가 상생하는 '장기전세주택'">
+                                        <p class="title">놀리던 땅이 놀라운 땅으로! 모두가 상생하는 '장기전세주택'</p>
+                                    </a>
+                                </div>
+                            </div> <!-- // swiper-wrapper -->
+                            <!-- control box -->
+                            <div class="control-box">
+                                <div class="pagination">
+                                    <span class="numbering">1</span>/<span class="total">4</span>
+                                </div>
+                                <a href="#" class="btn prev" role="button"><span class="blind">이전</span></a>
+                                <div class="auto-play">
+                                    <a href="#" class="btn play" role="button"><span class="blind">재생</span></a>
+                                    <a href="#" class="btn pause on" role="button"><span class="blind">일시정지</span></a>
+                                </div>
+                                <a href="#" class="btn next" role="button"><span class="blind">다음</span></a>
+                            </div><!-- // control box -->
+                        </div><!-- swiper -->
+                    </div> <!-- // 1st slide -->
+
+                    <!-- 2nd slide -->
+                    <div class="slide citiSlide">
+                        <h3 class="sc-titleTab"><a href="#slide2">시민참여</a></h3>
+                        <div class="swiper slide1" id="slide1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_01.jpg"
+                                            alt="2022 청년인생설계학교 3차 참가자 모집">
+                                        <p class="title">2022 청년인생설계학교 3차 참가자 모집</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_02.jpg" alt="시민과 함께하는 손목닥터9988 걷기 챌린지">
+                                        <p class="title">시민과 함께하는 손목닥터9988 걷기 챌린지</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_03.jpg"
+                                            alt="센스 있는 문장으로 '서울 매력' 만들어보시(詩)집!">
+                                        <p class="title">센스 있는 문장으로 '서울 매력' 만들어보시(詩)집!</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_04.jpg"
+                                            alt="전국 고등학교 e스포츠대회 ‘2022 서울컵 x 스쿨림픽’ 개최 참가접수 9월 23일(금)~10월 12일(수)">
+                                        <p class="title">전국 고등학교 e스포츠대회 ‘2022 서울컵 x 스쿨림픽’ 개최 참가접수 9월 23일(금)~10월 12일(수)</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_05.jpg"
+                                            alt="서울시, 제로배달 유니온 2주년 기념 페이백 이벤트 진행… 최대 3만원 페이백">
+                                        <p class="title">서울시, 제로배달 유니온 2주년 기념 페이백 이벤트 진행… 최대 3만원 페이백</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_06.jpg"
+                                            alt="2022 서울도시농업박람회 2022.10.7(금)-10.8(토) 서울광장, 청계광장">
+                                        <p class="title">2022 서울도시농업박람회 2022.10.7(금)-10.8(토) 서울광장, 청계광장</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_07.jpg"
+                                            alt="2022 서울영상공모전 세로보는 서울 공모기간 2022. 9. 15.(목) ~ 10. 14.(금)">
+                                        <p class="title">2022 서울영상공모전 세로보는 서울 공모기간 2022. 9. 15.(목) ~ 10. 14.(금)</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_08.jpg"
+                                            alt="2022 서울디자인국제포럼 DESIGN x Seoul ">
+                                        <p class="title">2022 서울디자인국제포럼 DESIGN x Seoul </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_09.jpg"
+                                            alt="2022년 하반기 「공유기업·단체 (재)지정」 공모. 신청기간 '22.10.2(수)~10.7(금)18시까지. ">
+                                        <p class="title">2022년 하반기 「공유기업·단체 (재)지정」 공모. 신청기간 '22.10.2(수)~10.7(금)18시까지. </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./asset/images/citi_slide_10.jpg"
+                                            alt="10월엔 '핑크퐁'과 함께 공원 대탐험 떠나보세요! <핑크퐁과 함께하는 서울의 공원 대탐험>">
+                                        <p class="title">10월엔 '핑크퐁'과 함께 공원 대탐험 떠나보세요! <핑크퐁과 함께하는 서울의 공원 대탐험></p>
+                                    </a>
+                                </div>
+                            </div> <!-- // swiper-wrapper -->
+                            <!-- control box -->
+                            <div class="control-box">
+                                <div class="pagination">
+                                    <span class="numbering">1</span>/<span class="total">4</span>
+                                </div>
+                                <a href="#" class="btn prev" role="button"><span class="blind">이전</span></a>
+                                <div class="auto-play">
+                                    <a href="#" class="btn play" role="button"><span class="blind">재생</span></a>
+                                    <a href="#" class="btn pause on" role="button"><span class="blind">일시정지</span></a>
+                                </div>
+                                <a href="#" class="btn next" role="button"><span class="blind">다음</span></a>
+                            </div><!-- // control box -->
+                        </div><!-- swiper -->
+                    </div><!-- // 2nd slide -->
+
+                </section><!-- // 슬라이드 -->
+
+                <!-- 사이드 배너 -->
+                <sc-side-area>
+
+                </sc-side-area><!-- // 사이드 배너 -->
+            </div><!-- //cont1 -->
+
+            <!-- cont2 - banner -->
+        </div><!-- // common-inner -->
+
+
         <!-- cont3 - -->
         <!-- cont4 - event, notice -->
         <!-- cont5 - field -->
@@ -137,8 +294,8 @@
                     <li class="policy"><a href="https://www.seoul.go.kr/helper/privacy.do?type=www">개인정보처리방침</a></li>
                     <li><a href="https://www.seoul.go.kr/helper/copyright.do">저작권 정책</a></li>
                     <li><a href="https://www.seoul.go.kr/helper/media.do">영상정보처리기기 운영 관리방침</a></li>
-					<li><a href="https://www.seoul.go.kr/homepageCorrect/user/hpCorrect.do">누리집 바로잡기</a></li>
-					<li><a href="https://www.seoul.go.kr/helper/siteMap.do">누리집지도</a></li>
+                    <li><a href="https://www.seoul.go.kr/homepageCorrect/user/hpCorrect.do">누리집 바로잡기</a></li>
+                    <li><a href="https://www.seoul.go.kr/helper/siteMap.do">누리집지도</a></li>
                 </ul>
             </section>
 
@@ -164,12 +321,12 @@
                             <span class="blind">카카오스토리 바로가기</span>
                         </a>
                     </li>
-					<li>
+                    <li>
                         <a href="http://www.youtube.com/seoullive" class="sns5">
                             <span class="blind">유튜브 바로가기</span>
                         </a>
                     </li>
-					<li>
+                    <li>
                         <a href="http://blog.naver.com/haechiseoul" class="sns6">
                             <span class="blind">블로그 바로가기</span>
                         </a>
@@ -184,7 +341,8 @@
                 <span class="blind">문의 전화번호 120, 정보를 못찾으셨나요? 120 다산콜센터로 물어보세요!</span>
             </div>
             <address>
-                <p>서울특별시청 04524 서울특별시 중구 세종대로 110 <a href="https://www.seoul.go.kr/seoul/map.do" class="map">[찾아오시는 길]</a></p>
+                <p>서울특별시청 04524 서울특별시 중구 세종대로 110 <a href="https://www.seoul.go.kr/seoul/map.do" class="map">[찾아오시는
+                        길]</a></p>
                 <p>대표전화 : 02-120 또는 02-731-2120</p>
                 <p>© Seoul Metropolitan Government all rights reserved</p>
             </address>
@@ -198,6 +356,10 @@
             </div>
         </div><!-- // bottom -->
     </footer><!-- // 하단 끝 -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

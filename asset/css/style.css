@@ -135,6 +135,10 @@ select {
   background: url(../images/icon_set_sns.png) no-repeat 0 0;
 }
 
+.container .cont1 .sc-mainSlide .sc-titleTab a::before {
+  background: url(../images/icon_sp.png) no-repeat;
+}
+
 .header > * a:hover {
   color: #2292e9;
 }
@@ -505,4 +509,96 @@ select {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container .cont1 {
+  height: 350px;
+  overflow: hidden;
+}
+.container .cont1 .sc-mainSlide {
+  width: 770px;
+  position: relative;
+}
+.container .cont1 .sc-mainSlide .slide {
+  margin-left: 80px;
+}
+.container .cont1 .sc-mainSlide .slide .sc-titleTab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 175px;
+}
+.container .cont1 .sc-mainSlide .slide .sc-titleTab a {
+  font-weight: 700;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-color: #d2e1e9;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+}
+.container .cont1 .sc-mainSlide .slide .sc-titleTab a.on {
+  background-color: #0158a8;
+  color: #fff;
+}
+.container .cont1 .sc-mainSlide .slide .sc-titleTab a.on::after {
+  content: " ";
+  position: absolute;
+  z-index: 10;
+  left: 99%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 32px;
+  border-color: transparent transparent transparent #0158a8;
+  margin-top: -25px;
+}
+.container .cont1 .sc-mainSlide .slide .swiper .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 690px;
+}
+.container .cont1 .sc-mainSlide .slide .swiper .swiper-wrapper .swiper-slide .title {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 122px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+}
+.container .cont1 .sc-mainSlide .newsSlide .sc-titleTab a::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  background-color: #fff;
+  background-position: 0 0;
+  border-radius: 50%;
+}
+.container .cont1 .sc-mainSlide .citiSlide .sc-titleTab {
+  top: 176px;
+}
+.container .cont1 .sc-mainSlide .citiSlide .sc-titleTab a::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  background-color: #fff;
+  background-position: -50px 0;
+  border-radius: 50%;
 }
