@@ -82,6 +82,14 @@
     background-repeat: no-repeat;
 }
 
+
+// sc-seoulSns
+
+.container .cont7 .sc-seoulSns .sns-direct > a::after,
+.container .cont7 .sc-seoulSns .sns-direct ul li a {
+    background: url(../images/ico_sns_list_202205.png);
+    background-repeat: no-repeat;
+}
 // hover color
 
 .header>* a:hover {
