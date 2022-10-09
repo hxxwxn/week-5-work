@@ -157,17 +157,17 @@
                                     </a>
                                 </div>
                             </div> <!-- // swiper-wrapper -->
-                            <!-- control box -->
                             <div class="control-box">
-                                <div class="page-number"><span class="numbering">1</span>/<span class="total">4</span>
+                                <div class="pagers">
+                                    <span class="page">1</span>/<span class="total">4</span>
                                 </div>
                                 <a href="#" class="btn prev" role="button"><span class="blind">이전</span></a>
                                 <div class="auto-play">
                                     <a href="#" class="btn play" role="button"><span class="blind">재생</span></a>
-                                    <a href="#" class="btn pause on" role="button"><span class="blind">일시정지</span></a>
+                                    <a href="#" class="btn pause active" role="button"><span class="blind">일시정지</span></a>
                                 </div>
                                 <a href="#" class="btn next" role="button"><span class="blind">다음</span></a>
-                            </div><!-- // control box -->
+                            </div>
                         </div><!-- swiper -->
                     </div> <!-- // 1st slide -->
 
@@ -247,21 +247,19 @@
                                     </a>
                                 </div>
                             </div> <!-- // swiper-wrapper -->
-                            <!-- control box -->
                             <div class="control-box">
-                                <div class="page-number">
-                                    <span class="numbering">1</span>/<span class="total">4</span>
+                                <div class="pagers">
+                                    <span class="page">1</span>/<span class="total">10</span>
                                 </div>
                                 <a href="#" class="btn prev" role="button"><span class="blind">이전</span></a>
                                 <div class="auto-play">
                                     <a href="#" class="btn play" role="button"><span class="blind">재생</span></a>
-                                    <a href="#" class="btn pause on" role="button"><span class="blind">일시정지</span></a>
+                                    <a href="#" class="btn pause active" role="button"><span class="blind">일시정지</span></a>
                                 </div>
                                 <a href="#" class="btn next" role="button"><span class="blind">다음</span></a>
-                            </div><!-- // control box -->
+                            </div>
                         </div><!-- swiper -->
                     </div><!-- // 2nd slide -->
-
                 </section><!-- // 슬라이드 -->
 
                 <!-- 사이드 배너 -->
@@ -642,42 +640,89 @@
                 </section>
             </div>
             <!-- cont8 - slide banner -->
+            <section class="sc-slideBanner">
+                <h2 class="blind">배너 슬라이드</h2>
+                <div class="slide-wrapper">
+                    <div class="slide-list">
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_03.jpg"
+                                alt="전사,순직 군인 2,048명의 유가족을 찾습니다! 전화: 044-200-7374/042-550-7387 유가족 찾기 바로가기. 국민권익위원회, 대한민국 국방부, 국가보훈처">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_04.jpg"
+                                alt="6.25 비정규군 공로자 보상신청 안내 2021.10.14(목) ~ 2023.10.15(일)">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_05.jpg" alt="대한민국 국가상징 국민 통합과 자긍심의 상징">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_06.jpg" alt="서울시 건설공사의 모든 것. 내 집앞 공사가 궁금하세요?">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_07.jpg" alt="찾아가는 여성 취업 상담버스 일자리 부르릉">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_08.jpg" alt="서울시의 모든 공모전을 한눈에 내손안에 서울 공모전 바로가기">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_09.jpg" alt="홀로서기 응원 로맨스 서울시 웹드라마 1인분 하우스">
+                        </a>
+                        <a href="#" class="slide-item">
+                            <img src="./asset/images/b_banner_10.jpg"
+                                alt="부패·공익신고 - 당신이 사회를 지킬 때, 법은 당신을 지킵니다. 국민권익위원회">
+                        </a>
+                    </div>
+                </div>
+                <div class="control-box">
+                    <div class="pagers">
+                        <span class="count">1</span>/<span class="total">8</span>
+                    </div>
+                    <div class="button">
+                        <a href="#" role="button" class="btn prev"><span class="blind">이전</span></a>
+                        <div class="autoplay">
+                            <a href="#" role="button" class="btn pause active"><span class="blind">일지정지</span></a>
+                            <a href="#" role="button" class="btn play"><span class="blind">재생</span></a>
+                        </div>
+                        <a href="#" role="button" class="btn next"><span class="blind">다음</span></a>
+                    </div>
+                </div>
+            </section>
             <!-- cont9 - relate -->
             <section class="sc-relate">
                 <h2 class="blind">관련 사이트 </h2>
                 <ul class="related-list">
                     <li class="related-item">
-                        <a href="#" type="button" class="rel-item r-item1">
+                        <a href="#" type="button" class="rel-item on r-item1">
                             <span class="r-title">직속기관·사업소</span>
                         </a>
-                        <div class="subWrap">
+                        <div class="sub-wrap">
                             <ul class="sub-list">
-                                <li><a href="http://www.uos.ac.kr/">서울시립대학교</a></li>
-                                <li><a href="http://news.seoul.go.kr/welfare/life_health">보건환경연구원</a></li>
-                                <li><a href="http://hrd.seoul.go.kr">인재개발원</a></li>
-                                <li><a href="http://agro.seoul.go.kr/">농업기술센터</a></li>
-                                <li><a href="http://119.seoul.go.kr">서울종합방재센터</a></li>
-                                <li><a href="http://fire.seoul.go.kr/air/main/main.do">119특수구조단</a></li>
-                                <li><a href="http://fire.seoul.go.kr/school/main/main.do">소방학교</a></li>
-                                <li><a href="http://arisu.seoul.go.kr">상수도사업본부</a></li>
-                                <li><a href="http://hangang.seoul.go.kr">한강사업본부</a></li>
-                                <li><a href="http://news.seoul.go.kr/env/archives/4892">물재생센터</a></li>
-                                <li><a href="http://sbhosp.seoul.go.kr/">서북병원</a></li>
-                                <li><a href="http://childhosp.seoul.go.kr/">어린이병원</a></li>
-                                <li><a href="http://ephosp.seoul.go.kr">은평병원</a></li>
-                                <li><a href="http://www.museum.seoul.kr/">서울역사박물관</a></li>
-                                <li><a href="http://baekjemuseum.seoul.go.kr/">한성백제박물관</a></li>
-                                <li><a href="https://sema.seoul.go.kr/it/orghismi/orgChart">시립미술관</a></li>
-                                <li><a href="http://stadium.seoul.go.kr/">체육시설관리사업소</a></li>
-                                <li><a href="http://lib.seoul.go.kr/">서울도서관</a></li>
-                                <li><a href="http://history.seoul.go.kr/">서울역사편찬원</a></li>
-                                <li><a href="http://news.seoul.go.kr/citybuild/archives/209601">품질시험소</a></li>
-                                <li><a href="http://grandpark.seoul.go.kr">서울대공원</a></li>
-                                <li><a href="http://parks.seoul.go.kr/information/list.do#none">동부공원녹지사업소</a></li>
-                                <li><a href="https://science.seoul.go.kr">서울시립과학관</a></li>
-                                <li><a href="http://botanicpark.seoul.go.kr/">서울식물원</a></li>
-                                <li><a href="https://archives.seoul.go.kr/">서울기록원</a></li>
-                                <li><a href="http://child.seoul.go.kr/">아동복지센터</a></li>
+                                <li class="sub-item"><a href="#">서울시립대학교</a></li>
+                                <li class="sub-item"><a href="#">보건한국연구원</a></li>
+                                <li class="sub-item"><a href="#">인재개발원</a></li>
+                                <li class="sub-item"><a href="#">농업기술센터</a></li>
+                                <li class="sub-item"><a href="#">서울종합방재센터</a></li>
+                                <li class="sub-item"><a href="#">119특수구조단</a></li>
+                                <li class="sub-item"><a href="#">소방학교</a></li>
+                                <li class="sub-item"><a href="#">상수도사업본부</a></li>
+                                <li class="sub-item"><a href="#">한강사업본부</a></li>
+                                <li class="sub-item"><a href="#">물재생센터</a></li>
+                                <li class="sub-item"><a href="#">서북병원</a></li>
+                                <li class="sub-item"><a href="#">어린이병원</a></li>
+                                <li class="sub-item"><a href="#">은평병원</a></li>
+                                <li class="sub-item"><a href="#">서울역사박물관</a></li>
+                                <li class="sub-item"><a href="#">한성백제박물관</a></li>
+                                <li class="sub-item"><a href="#">시립미술관</a></li>
+                                <li class="sub-item"><a href="#">체육시설관리사업소</a></li>
+                                <li class="sub-item"><a href="#">서울도서관</a></li>
+                                <li class="sub-item"><a href="#">서울역사편찬원</a></li>
+                                <li class="sub-item"><a href="#">품질시험소</a></li>
+                                <li class="sub-item"><a href="#">서울대공원</a></li>
+                                <li class="sub-item"><a href="#">동부공원녹지사업소</a></li>
+                                <li class="sub-item"><a href="#">서울시립과학관</a></li>
+                                <li class="sub-item"><a href="#">서울식물원</a></li>
+                                <li class="sub-item"><a href="#">서울기록원</a></li>
+                                <li class="sub-item"><a href="#">아동복지센터</a></li>
                             </ul>
                         </div>
                     </li>
@@ -685,34 +730,34 @@
                         <a href="#" type="button" class="rel-item r-item2">
                             <span class="r-title">공사·출연기관</span>
                         </a>
-                        <div class="subWrap">
+                        <div class="sub-wrap">
                             <ul class="sub-list">
-                                <li><a href="http://www.seoulmetro.co.kr/">서울교통공사</a></li>
-                                <li><a href="http://new.sisul.or.kr/">서울시설공단</a></li>
-                                <li><a href="https://www.garak.co.kr/">서울특별시 농수산식품공사</a></li>
-                                <li><a href="https://www.i-sh.co.kr/">서울주택도시공사</a></li>
-                                <li><a href="https://www.i-se.co.kr/">서울에너지공사</a></li>
-                                <li><a href="https://www.swr.or.kr/">서울물재생시설공단</a></li>
-                                <li><a href="https://www.seoulmc.or.kr/">서울의료원</a></li>
-                                <li><a href="http://www.si.re.kr/">서울연구원</a></li>
-                                <li><a href="https://www.sba.seoul.kr/">서울산업진흥원</a></li>
-                                <li><a href="https://www.seoulshinbo.co.kr/">서울신용보증재단</a></li>
-                                <li><a href="https://www.sejongpac.or.kr/organization/main/main.do">세종문화회관</a></li>
-                                <li><a href="https://www.seoulwomen.or.kr/">서울특별시 여성가족재단</a></li>
-                                <li><a href="https://www.welfare.seoul.kr/web/main/index.do">서울시복지재단</a></li>
-                                <li><a href="https://www.sfac.or.kr/index.do">서울문화재단</a></li>
-                                <li><a href="https://www.seoulphil.or.kr/">서울시립교향악단</a></li>
-                                <li><a href="http://www.seouldesign.or.kr/">서울디자인재단</a></li>
-                                <li><a href="https://www.hissf.or.kr/">서울장학재단</a></li>
-                                <li><a href="http://smile.seoul.kr/">서울특별시 평생교육진흥원</a></li>
-                                <li><a href="http://www.sto.or.kr/index">서울관광재단</a></li>
-                                <li><a href="https://50plus.or.kr/org/index.do">서울특별시 50플러스재단</a></li>
-                                <li><a href="https://sdf.seoul.kr/index">서울디지털재단</a></li>
-                                <li><a href="https://www.120dasan.or.kr/dsnc/main/main.do">서울특별시 120다산콜재단</a></li>
-                                <li><a href="http://www.seoulhealth.kr/main">서울특별시 공공보건의료재단</a></li>
-                                <li><a href="http://www.sit.re.kr/kr/main.do">서울기술연구원</a></li>
-                                <li><a href="https://seoul.pass.or.kr/">서울시 사회서비스원</a></li>
-                                <li><a href="https://tbs.seoul.kr/tv/index.do">서울시미디어재단TBS</a></li>
+                                <li class="sub-item"><a href="#">서울교통공사</a></li>
+                                <li class="sub-item"><a href="#">서울시설공단</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 농수산식품공사</a></li>
+                                <li class="sub-item"><a href="#">서울주택도시공사</a></li>
+                                <li class="sub-item"><a href="#">서울에너지공사</a></li>
+                                <li class="sub-item"><a href="#">서울물재생시설공단</a></li>
+                                <li class="sub-item"><a href="#">서울의료원</a></li>
+                                <li class="sub-item"><a href="#">서울연구원</a></li>
+                                <li class="sub-item"><a href="#">서울산업진흥원</a></li>
+                                <li class="sub-item"><a href="#">서울신용보증재단</a></li>
+                                <li class="sub-item"><a href="#">세종문화회관</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 여성가족재단</a></li>
+                                <li class="sub-item"><a href="#">서울시복지재단</a></li>
+                                <li class="sub-item"><a href="#">서울문화재단</a></li>
+                                <li class="sub-item"><a href="#">서울시립교향악단</a></li>
+                                <li class="sub-item"><a href="#">서울디자인재단</a></li>
+                                <li class="sub-item"><a href="#">서울장학재단</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 평생교육진흥원</a></li>
+                                <li class="sub-item"><a href="#">서울관광재단</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 50플러스재단</a></li>
+                                <li class="sub-item"><a href="#">서울디지털재단</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 120다산콜재단</a></li>
+                                <li class="sub-item"><a href="#">서울특별시 공공보건의료재단</a></li>
+                                <li class="sub-item"><a href="#">서울기술연구원</a></li>
+                                <li class="sub-item"><a href="#">서울시 사회서비스원</a></li>
+                                <li class="sub-item"><a href="#">서울시미디어재단TBS</a></li>
                             </ul>
                         </div>
                     </li>
@@ -720,33 +765,34 @@
                         <a href="#" type="button" class="rel-item r-item3">
                             <span class="r-title">자치구</span>
                         </a>
-                        <div class="subWrap">
+                        <div class="sub-wrap">
                             <ul class="sub-list">
-                                <li><a href="http://www.gangnam.go.kr">강남구</a></li>
-                                <li><a href="http://www.gangdong.go.kr">강동구</a></li>
-                                <li><a href="https://www.gangbuk.go.kr/">강북구</a></li>
-                                <li><a href="http://www.gangseo.seoul.kr">강서구</a></li>
-                                <li><a href="http://www.gwanak.go.kr">관악구</a></li>
-                                <li><a href="http://www.gwangjin.go.kr">광진구</a></li>
-                                <li><a href="http://www.guro.go.kr">구로구</a></li>
-                                <li><a href="http://www.geumcheon.go.kr">금천구</a></li>
-                                <li><a href="http://www.nowon.kr">노원구</a></li>
-                                <li><a href="http://www.dobong.go.kr">도봉구</a></li>
-                                <li><a href="http://www.ddm.go.kr">동대문구</a></li>
-                                <li><a href="http://www.dongjak.go.kr">동작구</a></li>
-                                <li><a href="http://www.mapo.go.kr">마포구</a></li>
-                                <li><a href="http://www.sdm.go.kr/">서대문구</a></li>
-                                <li><a href="http://www.seocho.go.kr">서초구</a></li>
-                                <li><a href="http://www.sd.go.kr">성동구</a></li>
-                                <li><a href="http://www.sb.go.kr">성북구</a></li>
-                                <li><a href="http://www.songpa.go.kr">송파구</a></li>
-                                <li><a href="http://www.yangcheon.go.kr">양천구</a></li>
-                                <li><a href="http://www.ydp.go.kr">영등포구</a></li>
-                                <li><a href="http://www.yongsan.go.kr">용산구</a></li>
-                                <li><a href="http://www.ep.go.kr">은평구</a></li>
-                                <li><a href="http://www.jongno.go.kr">종로구</a></li>
-                                <li><a href="http://www.junggu.seoul.kr">중구</a></li>
-                                <li><a href="http://www.jungnang.go.kr">중랑구</a></li>
+                                <li class="sub-item"><a href="#">강남구</a></li>
+                                <li class="sub-item"><a href="#">강동구</a></li>
+                                <li class="sub-item"><a href="#">강남구</a></li>
+                                <li class="sub-item"><a href="#">강북구</a></li>
+                                <li class="sub-item"><a href="#">강서구</a></li>
+                                <li class="sub-item"><a href="#">관악구</a></li>
+                                <li class="sub-item"><a href="#">광진구</a></li>
+                                <li class="sub-item"><a href="#">구로구</a></li>
+                                <li class="sub-item"><a href="#">금천구</a></li>
+                                <li class="sub-item"><a href="#">노원구</a></li>
+                                <li class="sub-item"><a href="#">도봉구</a></li>
+                                <li class="sub-item"><a href="#">동대문구</a></li>
+                                <li class="sub-item"><a href="#">동작구</a></li>
+                                <li class="sub-item"><a href="#">마포구</a></li>
+                                <li class="sub-item"><a href="#">서대문구</a></li>
+                                <li class="sub-item"><a href="#">서초구</a></li>
+                                <li class="sub-item"><a href="#">성동구</a></li>
+                                <li class="sub-item"><a href="#">성북구</a></li>
+                                <li class="sub-item"><a href="#">송파구</a></li>
+                                <li class="sub-item"><a href="#">양천구</a></li>
+                                <li class="sub-item"><a href="#">영등포구</a></li>
+                                <li class="sub-item"><a href="#">용산구</a></li>
+                                <li class="sub-item"><a href="#">은평구</a></li>
+                                <li class="sub-item"><a href="#">종로구</a></li>
+                                <li class="sub-item"><a href="#">중구</a></li>
+                                <li class="sub-item"><a href="#">중랑구</a></li>
                             </ul>
                         </div>
                     </li>
@@ -758,59 +804,25 @@
                         <a href="#" type="button" class="rel-item r-item5">
                             <span class="r-title">지방자치단체·유관기관</span>
                         </a>
-                        <div class="subWrap">
+                        <div class="sub-wrap">
                             <ul class="sub-list">
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6110000/locgov?administOrgCd=1100000000">서울특별시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6260000/locgov?administOrgCd=2600000000">부산광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6270000/locgov?administOrgCd=2700000000">대구광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6280000/locgov?administOrgCd=2800000000">인천광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6290000/locgov?administOrgCd=2900000000">광주광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6300000/locgov?administOrgCd=3000000000">대전광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6310000/locgov?administOrgCd=3100000000">울산광역시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/5690000/locgov?administOrgCd=3600000000">세종특별자치시</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6410000/locgov?administOrgCd=4100000000">경기도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6420000/locgov?administOrgCd=4200000000">강원도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6430000/locgov?administOrgCd=4300000000">충청북도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6440000/locgov?administOrgCd=4400000000">충청남도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6450000/locgov?administOrgCd=4500000000">전라북도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6460000/locgov?administOrgCd=4600000000">전라남도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6470000/locgov?administOrgCd=4700000000">경상북도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6480000/locgov?administOrgCd=4800000000">경상남도</a>
-                                </li>
-                                <li><a
-                                        href="https://www.gov.kr/portal/orgInfo/6500000/locgov?administOrgCd=5000000000">제주특별자치도</a>
-                                </li>
+                                <li class="sub-item"><a href="#">서울특별시</a></li>
+                                <li class="sub-item"><a href="#">부산광역시</a></li>
+                                <li class="sub-item"><a href="#">대구광역시</a></li>
+                                <li class="sub-item"><a href="#">인천광역시</a></li>
+                                <li class="sub-item"><a href="#">광주광역시</a></li>
+                                <li class="sub-item"><a href="#">대전광역시</a></li>
+                                <li class="sub-item"><a href="#">울산광역시</a></li>
+                                <li class="sub-item"><a href="#">세종특별자치시</a></li>
+                                <li class="sub-item"><a href="#">경기도</a></li>
+                                <li class="sub-item"><a href="#">강원도</a></li>
+                                <li class="sub-item"><a href="#">충청북도</a></li>
+                                <li class="sub-item"><a href="#">충청남도</a></li>
+                                <li class="sub-item"><a href="#">전라북도</a></li>
+                                <li class="sub-item"><a href="#">전라남도</a></li>
+                                <li class="sub-item"><a href="#">경상북도</a></li>
+                                <li class="sub-item"><a href="#">경상남도</a></li>
+                                <li class="sub-item"><a href="#">제주특별자치도</a></li>
                             </ul>
                         </div>
                     </li>

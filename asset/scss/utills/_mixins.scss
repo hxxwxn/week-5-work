@@ -1,4 +1,4 @@
-@mixin position($position:null) {
+ @mixin position($position:null) {
     position: absolute;
     @if($position=='ct'){
         top: 50%;
