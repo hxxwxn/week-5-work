@@ -88,13 +88,73 @@
 
                          .pagers {
                              line-height: 40px;
+                             right: 80px;
+
+                             &::after {
+                                 content: '';
+                                 position: absolute;
+                                 width: 1px;
+                                 height: 24px;
+                                 left: 35px;
+                                 top: 8px;
+                                 background: rgba(255, 255, 255, .5);
+                             }
                          }
 
                          .btn {
-                             background-image: url(../images/sp-img.png);
+                             position: absolute;
+                             width: 18px;
+                             height: 18px;
+                             z-index: 10;
+                             top: calc(50% + 1px);
+                             bottom: 0;
+                             cursor: pointer;
+                             background-image: url(../images/sp_img_01.png);
                              background-repeat: no-repeat;
                              background-size: 300px;
+                             transform: translateY(-50%);
+
+                             .auto-play {
+                                 width: 18px;
+                                 height: 18px;
+                                 position: absolute;
+                                 top: calc(50% + 1px);
+                                 bottom: 0;
+                                 transform: translateY(-50%);
+
+                                 .btn {
+                                     display: none;
+
+                                     &.active {
+                                         display: block;
+                                     }
+                                 }
+
+                             }
+
+                             &.prev {
+                                 left: 43px;
+                                 background-position: -241px -285px;
+
+                             }
+
+                             &.next {
+                                 right: 5px;
+                                 background-position: -256px -285px;
+                             }
+
+                             &.play {
+                                 background-position: -269px -285px;
+                                 left: 73px;
+                             }
+
+                             &.pause {
+                                 left: 73px;
+                                 background-position: -285px -285px;
+                             }
+
                          }
+
                      }
                  }
              }
